@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class nokiaKeypad
 {
     public static ArrayList<String> keypad(String str,String[] st)
@@ -42,9 +40,10 @@ public class nokiaKeypad
         {
             keypad_void(roq,ans+st[i]);
         }
-
-       
-
+    }
+    public static void keypad_02(String ques,String ans)
+    {
+        
     }
     public static void main(String[] args) {
         String str="478";

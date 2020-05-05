@@ -52,23 +52,23 @@ public class firstOccData {
         return ans;
     }
     public static void main(String[] args) {
-        // int arr[]={10,20,20,20,40,20,98,20};
-        // int ans[]=allIndex(arr, 0, 20,0);
+        int arr[]={10,20,20,20,40,20,98,20};
+        int ans[]=allIndex(arr, 0, 20,0);
 
-        // for(int i=0;i<ans.length;i++)
-        // {
-        //     System.out.println(ans[i]);
-        // }
-
-        char c[][]={{'a'},{'b'},{'c','d'}};
-        c[1]=c[2];
-        c=new char[][] {{'a'},{'b'},{'c'},{'d'}};
-        for(int i=0;i<c.length;i++)
+        for(int i=0;i<ans.length;i++)
         {
-            for(int j=0;j<c[0].length;j++)
-            {
-                System.out.print(c[i][j]);
-            }
+            System.out.println(ans[i]);
         }
+
+        // char c[][]={{'a'},{'b'},{'c','d'}};
+        // c[1]=c[2];
+        // c=new char[][] {{'a'},{'b'},{'c'},{'d'}};
+        // for(int i=0;i<c.length;i++)
+        // {
+        //     for(int j=0;j<c[0].length;j++)
+        //     {
+        //         System.out.print(c[i][j]);
+        //     }
+        // }
     }
 }
